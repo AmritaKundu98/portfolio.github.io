@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <title>Portfolio Amrita</title>
+    
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Fuggles&family=Lobster&family=Poppins:ital,wght@0,100;1,100&family=Roboto:ital,wght@1,100&display=swap');
+        li{
+            display: inline;
+            padding-left: 4em;
+           
+        }
+        
+        #head-div{
+            display: flex;
+            margin-top: 10px;
+            background-color: aqua;
+        }
+        #head-div1{
+            font-family: 'Courgette', cursive;
+            margin-left: 8em;
+            padding-top: 10px;
+        }
+        #head-div2{
+            text-align: right;
+            margin-right: 80px;
+        }
+            
+        a:hover{
+           color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        #mid-div{
+            display: flex;
+            
+        }
+        #profileimg{
+            width: 300px;
+    height: 273px;
+    border-radius: 50%;
+    margin-top: 54px;
+    margin-left: 14em;
+        }
+        #about{
+            margin-top: 105px;
+            margin-left: 7em;
+            font-family: 'Courgette', cursive;
+        }
+        #about1{
+           
+            margin-left: 8em;
+            font-family: 'Courgette', cursive;
+        }
+        #contact{
+            border-style: none;
+            margin-left: 9.5em;
+            margin-top: 4em;
+            margin-bottom: 21px;
+            height: 2.5em;
+            color: dodgerblue;
+    
+        }
+        #resume{
+            border-style: none;
+            margin-left: 2em;
+            margin-top: 4em;
+  
+            height: 2.5em;
+            color: dodgerblue;
+    
+        }
+        * {box-sizing: border-box}
+
+      .container {
+        width: 76%;
+        background-color: #ddd;
+        height: 22px;
+        margin-left: 40px;
+        margin-bottom: 15px;
+       }
+
+    .skills {
+      text-align: right;
+      padding-top: 4px;
+      padding-bottom: 10px;
+      
+      }
+
+    .html {
+        width: 90%; 
+        background-color: lightblue;
+        height: 22px;
+        
+    }
+    .css {
+        width: 80%;
+        background-color: lightblue;
+        height: 22px;
+        
+    }
+    .js {
+        width: 65%; 
+        background-color: lightblue;
+        height: 22px;
+        
+    }
+    .bootstrap {
+        width: 55%; 
+        background-color: lightblue;
+        height: 22px;
+        
+    }
+    
+    .angular {
+        width: 40%; 
+        background-color: lightblue;
+        height: 22px;
+        
+    }
+
+    .jquery {
+        width: 30%; 
+        background-color: lightblue;
+        height: 22px;
+        
+    }
+    #div-about{
+        box-shadow: 2px 2px 10px #808080;
+        float: right;
+        border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        margin-top: 16px;
+        margin-bottom: 64px;
+        
+    }
+    #skill-topic{
+        color: white;
+        margin-left: 40px;
+    }
+    #mid-div-box{
+        box-shadow: 2px 2px 10px #808080;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 75px;
+    }
+    #myskill{
+        margin-left: 63px;
+    margin-top: 103px;
+    font-size: 18px;
+    font-style: oblique;
+    }
+    #myskill1{
+        margin-left: 63px;
+    
+    font-size: 15px;
+    font-style: oblique;
+    }
+    #arrow{
+        height: 79px;
+    width: 187px;
+    margin-top: 10px;
+    margin-left: 24em;
+    }
+    #project1{
+        height: 13em;
+    box-shadow: 1px 1px 5px gray;
+    width: 28%;
+    margin-left: 21px;
+    padding: 37px;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bold;height: 13em;
+    
+    box-shadow: 1px 1px 5px gray;
+    width: 25%;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: blue;
+    }
+    #pro-btn{
+        color: black;
+    }
+    #pro-btn:hover{
+        color: white
+    }
+    #pro-btn-style:hover{
+        
+        background-color: blue;
+        color : white;
+    }
+    #pro-btn-style{
+        height: 31px;
+    border-style: none;
+    margin-top: 42px;
+    float: right;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    #ft-nm{
+        padding-top: 27px;
+    font-style: oblique;
+    color: blue;
+    }
+    #ft-nm1{
+        margin-top: -15px;  
+    
+    }
+    
+    #ft-div{
+        width: 81%;
+            box-shadow: 1px 1px 5px gray;
+            margin-left: 9%;
+    }
+    .fa-brands{
+        margin-top: 10px;
+    padding-left: 14px;
+    margin-bottom: 26px;
+    font-size: 20px;
+    }
+    #achv-btn-style:hover{
+        
+        background-color: blue;
+        
+    }
+    #achievement1{
+        height: 13em;
+    box-shadow: 1px 1px 5px gray;
+    width: 28%;
+    margin-left: 21px;
+    padding: 37px;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bold;height: 13em;
+    
+    box-shadow: 1px 1px 5px gray;
+    width: 28%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: blue;
+    }
+  
+    #achv-btn1-style{
+        height: 31px;
+    border-style: none;
+    margin-top: 15px;
+    float: right;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    #achv-btn1-style:hover{
+        
+        background-color: blue;
+        
+    }
+    #achv-btn2-style{
+        height: 31px;
+    border-style: none;
+    margin-top: 29px;
+    float: right;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    #achv-btn2-style:hover{
+        
+        background-color: blue;
+        
+    }
+    #achv-btn-style{
+        height: 31px;
+    border-style: none;
+    margin-top: 44px;
+    float: right;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    #myachievement{
+      
+        margin-top: 103px;
+    font-size: 15px;
+    font-style: oblique;
+    margin-left: -29px;
+   
+    }
+    #myachievement1{
+        
+        margin-top: 103px;
+    font-size: 15px;
+    font-style: oblique;
+    margin-left: -29px;
+   
+    }
+    
+
+     </style>
+    
+</head>
+<body>
+    <div style="background-image: linear-gradient(180deg,blue,aqua);height: 100%;">
+        
+    <div style="width: 100%;" id="head-div" >
+        <div style="width: 45%;" id="head-div1">
+            Amrita Kundu
+        </div>
+        <div style="width: 50%;" id="head-div2">
+            <ul>
+                <li><a href="./skill.html">Skill</a></li>
+                <li><a href="./project.html">Project</a></li>
+                <li><a href="./achievements.html">Achievements</a></li>
+                <li><a href="./contact.html">Contact Me</a></li>
+                
+              </ul>
+        </div>
+    </div>
+    <div style="width: 100%;" id="mid-div">
+        <div id="mid-div-box">
+        <div style="width: 50%;" id="mid-div1">
+           <h3 id="about">Hi,I am Amrita..</h3>
+           <p id="about1">Trying to grab an opportunity and set myself a goal where
+            I can be innovative and attain a challenging position by 
+            excercising my interpersonal skill to the fullest for the 
+            growth of the organization and mine as well.</p>
+            
+            <button id="contact"><a href="./contact.html">CONTACT ME</a></button>
+            <button id="resume"><a href="./Amrita Kundu..pdf">SEE MY RESUME</a></button>
+        </div>
+        <div style="width: 50%;" id="mid-div2">
+           
+             <img  id="profileimg"    src="./WhatsApp Image 2023-09-25 at 8.39.56 PM.jpeg">
+            
+        </div>
+    </div>
+    </div>
+    <div style="width: 100%; display: flex;margin-top: 40px;">
+        <div style="width: 50%;">
+            <p id="myskill">My Skills</p>
+            <p id="myskill1">HTML,CSS JavaScript,Bootstrap,Angular,jQuery..</p>
+            <p id="myskill1">Learing..</p>
+            <img id="arrow" src="https://static.thenounproject.com/png/2094742-200.png">
+            
+        </div>
+        <div style="width: 45%;" id="div-about">
+            
+            <p id="skill-topic">HTML</p>
+            <div class="container">
+             <div class="skills html">90%</div>
+            </div>
+
+           <p id="skill-topic">CSS</p>
+           <div class="container">
+           <div class="skills css">80%</div>
+           </div>
+
+           <p id="skill-topic">JavaScript</p>
+           <div class="container">
+           <div class="skills js">65%</div>
+           </div>
+
+           <p id="skill-topic">Bootstrap</p>
+           <div class="container">
+           <div class="skills bootstrap">55%</div>
+           </div>
+
+           <p id="skill-topic">Angular</p>
+           <div class="container">
+           <div class="skills angular">40%</div>
+           </div>
+
+           <p id="skill-topic">jQuery UI</p>
+           <div class="container">
+           <div class="skills jquery">30%</div>
+           </div>
+        </div>
+       
+        </div>
+
+        <div style="width: 100%;">
+            <div style="display: flex;margin-left: 98px;margin-bottom: 10px;">
+                <div  id="myachievement">
+                <p>Projects</p>
+            </div>
+            <div style="display: flex;width: 100%;">
+            <div id="project1">
+                <p>Edureka Web Page Example</p>
+                <p>Using HTML,CSS,Bootstrap..</p>
+                <button id="pro-btn-style"><a id="pro-btn" href="https://github.com/AmritaKundu98/edurekawebpageexample.github.io.git">Know more..</a></button>
+            </div>
+            <div id="project1" >
+                <p>Count Down to Durgapuja 2023</p>
+                <p style="font-size: 13px;">Using HTML,CSS,JavaScript,Bootstrap</p>
+                <button id="pro-btn-style"><a id="pro-btn" href="https://github.com/AmritaKundu98/durgapujacountdown2023.github.io.git">Know more..</a></button>
+            </div>
+            <div id="project1" >
+                <p>Facial Expression Extraction</p>
+                <p>Using Python Libraries..</p>
+                <button id="pro-btn-style"><a id="pro-btn">Know more..</a></button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div style="width: 100%;">
+            <div style="display: flex;margin-left: 98px;margin-bottom: 10px;">
+                <div  id="myachievement1">
+                    <p>Achie-<br>vement</p>
+                </div>  
+                <div style="display: flex;width: 100%;">
+            <div id="project1">
+                <p>Web Development Certification Course,by Edureka/p>
+                    <p style="font-size: 12px;">Content covered-HTML,CSS,JavaScript,Bootstrap,Ajax,jQuery..</p>
+                    <button id="achv-btn1-style"><a id="pro-btn" href="./Web_Development_Certificate.pdf">Check out my achievements..</a></button>
+            </div>
+            <div id="project1" >
+                <p>HTML Certification Course,by Great Learning</p>
+                    <p style="font-size: 12px;">Content covered-HTML</p>
+                    <button id="achv-btn2-style"><a id="pro-btn" href="./HTML certificate.pdf">Check out my achievements..</a></button>
+            </div>
+            <div id="project1" >
+                <p>English Proficiency</p>
+                    <p style="font-size: 12px;"> From BBC Global</p>
+                    <button id="achv-btn-style"><a id="pro-btn" href="./English Proficiency (1) (1).pdf">Check out my achievements..</a></button>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        
+
+        <div id="lst-div">
+            <div id="ft-div">
+                <center>
+               <h3 id="ft-nm">Amrita Kundu</h3>
+               <p id="ft-nm1">Web Developer</p>
+               <a id="email" href="mailto:kunduamrita149@gmail.com" class="text-light">kunduamrita149@gmail.com</a><br>
+               <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/amrita-kundu-487456206/"></a>
+               <a class="fa-brands fa-github" href="https://github.com/AmritaKundu98"></a>
+               <a class="fa-brands fa-instagram" href="https://www.instagram.com/mithi_ind/"></a>
+               
+            </center>
+            
+            </div>
+        </div>
+   
+ </div>   
+</body>
+</html>

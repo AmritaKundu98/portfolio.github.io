@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courgette&family=Fuggles&family=Lobster&family=Poppins:ital,wght@0,100;1,100&family=Roboto:ital,wght@1,100&display=swap');
+        li{
+            display: inline;
+            padding-left: 4em;
+           
+        }
+        
+        #head-div{
+            display: flex;
+            margin-top: 10px;
+            background-color: aqua;
+        }
+        #head-div1{
+            font-family: 'Courgette', cursive;
+            margin-left: 8em;
+            padding-top: 10px;
+        }
+        #head-div2{
+            text-align: right;
+            margin-right: 80px;
+        }
+            
+        a:hover{
+           color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+         .container {
+        width: 76%;
+        background-color: #ddd;
+        height: 22px;
+        margin-left: 40px;
+        margin-bottom: 15px;
+       }
+
+    .skills {
+      text-align: right;
+      padding-top: 4px;
+      padding-bottom: 10px;
+      
+      }
+
+    .html {
+        width: 90%; 
+        background-color: lightblue;
+        height: 8px;
+        
+    }
+    .css {
+        width: 80%;
+        background-color: lightblue;
+        height: 8px;
+        
+    }
+    .js {
+        width: 65%; 
+        background-color: lightblue;
+        height: 8px;
+        
+    }
+    .bootstrap {
+        width: 55%; 
+        background-color: lightblue;
+        height: 8px;
+        
+    }
+    
+    .angular {
+        width: 40%; 
+        background-color: lightblue;
+        height: 8px;
+        
+    }
+
+    .jquery {
+        width: 30%; 
+        background-color: lightblue;
+        height: 8px;
+        
+    }
+    #div-about{
+        box-shadow: 2px 2px 10px #808080;
+        float: right;
+        border-top-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        margin-top: 16px;
+        margin-bottom: 64px;
+        
+    }
+    #skill-topic{
+        color: white;
+        margin-left: 40px;
+    }
+    #mid-div-box{
+        box-shadow: 2px 2px 10px #808080;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 75px;
+    }
+    #myskill{
+        margin-left: 63px;
+    margin-top: 103px;
+    font-size: 18px;
+    font-style: oblique;
+    }
+    #myskill1{
+        margin-left: 63px;
+    
+    font-size: 15px;
+    font-style: oblique;
+    }
+    #arrow{
+        height: 79px;
+    width: 187px;
+    margin-top: 10px;
+    margin-left: 24em;
+    }
+    </style>
+</head>
+<body>
+
+    <div style="background-image: linear-gradient(180deg,blue,aqua);height: 100%;">
+
+        <div style="width: 100%;" id="head-div" >
+            <div style="width: 45%;" id="head-div1">
+                Amrita Kundu
+            </div>
+            <div style="width: 50%;" id="head-div2">
+                <ul>
+                    <li><a  class="active" href="./skill.html">Skill</a></li>
+                    <li><a href="./project.html">Project</a></li>
+                    <li><a href="./achievements.html">Achievements</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
+                    
+                  </ul>
+            </div>
+        </div>
+
+        <div style="width: 100%; display: flex;margin-top: 40px;">
+            <div style="width: 50%;">
+                <p id="myskill">My Skills</p>
+                <p id="myskill1">HTML,CSS JavaScript,Bootstrap,Angular,jQuery..</p>
+                <p id="myskill1">Learing..</p>
+                <img id="arrow" src="https://static.thenounproject.com/png/2094742-200.png">
+                
+            </div>
+            <div style="width: 45%;" id="div-about">
+                
+                <p id="skill-topic">HTML</p>
+                <div class="container">
+                 <div class="skills html">90%</div>
+                </div>
+    
+               <p id="skill-topic">CSS</p>
+               <div class="container">
+               <div class="skills css">80%</div>
+               </div>
+    
+               <p id="skill-topic">JavaScript</p>
+               <div class="container">
+               <div class="skills js">65%</div>
+               </div>
+    
+               <p id="skill-topic">Bootstrap</p>
+               <div class="container">
+               <div class="skills bootstrap">55%</div>
+               </div>
+    
+               <p id="skill-topic">Angular</p>
+               <div class="container">
+               <div class="skills angular">40%</div>
+               </div>
+    
+               <p id="skill-topic">jQuery UI</p>
+               <div class="container">
+               <div class="skills jquery">30%</div>
+               </div>
+            </div>
+           
+            </div>
+    </div>
+    
+</body>
+</html>
